@@ -1,0 +1,690 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Surya | Java Full Stack Developer</title>
+
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Orbitron:wght@500;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- FONT AWESOME -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+
+    <!-- CSS FILE -->
+    <link rel="stylesheet" href="./styles.css" />
+
+    <!-- EMAIL JS -->
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+  </head>
+
+  <body>
+    <!-- MATRIX BACKGROUND -->
+
+    <canvas id="codeRain"></canvas>
+
+    <!-- CURSOR -->
+
+    <div class="cursor"></div>
+
+    <div class="cursor-dot"></div>
+
+    <!-- PARTICLES -->
+
+    <div class="particles" id="particles"></div>
+
+    <!-- NAVBAR -->
+
+    <header class="navbar">
+      <div class="container nav-wrapper">
+        <div class="logo">SURYA TEJA<span>.</span></div>
+
+        <nav>
+          <a href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#skills">Skills</a>
+          <a href="#education">Education</a>
+          <a href="#projects">Projects</a>
+          <a href="#certifications">Certifications</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <!-- HERO -->
+
+    <section class="hero container" id="home">
+      <div class="hero-left reveal">
+        <h3>HELLO WORLD 👋</h3>
+
+        <h1>
+          I'm
+          <span>SURYA TEJA</span>
+
+          <br />
+        </h1>
+
+        <div class="typing">
+          <span id="typed"></span>
+        </div>
+
+        <p>
+          Passionate Java Full Stack Developer focused on building scalable
+          backend systems, responsive frontend applications, and modern full
+          stack software solutions using Java, Spring Boot, React, REST APIs,
+          and cloud technologies.
+        </p>
+
+        <div class="hero-social">
+          <a href="https://github.com/Surya63023" target="_blank">
+            <i class="fa-brands fa-github"></i>
+          </a>
+
+          <a
+            href="https://www.linkedin.com/in/suryateja-developer"
+            target="_blank"
+          >
+            <i class="fa-brands fa-linkedin-in"></i>
+          </a>
+
+          <a href="mailto:suryateja36200@gmail.com" target="_blank">
+            <i class="fa-solid fa-envelope"></i>
+          </a>
+
+          <a
+            href="https://www.instagram.com/surya__teja________/"
+            target="_blank"
+          >
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+        </div>
+
+        <div class="hero-buttons">
+          <a href="#projects" class="btn btn-primary"> View Projects </a>
+
+          <a href="./Surya Resume.pdf" target="_blank" class="btn btn-primary">
+            View Resume
+          </a>
+          <a href="#contact" class="btn btn-outline"> Contact Me </a>
+        </div>
+      </div>
+
+      <div class="hero-right reveal">
+        <div class="profile-wrapper">
+          <div class="orbit orbit1">
+            <div class="orbit-dot"></div>
+          </div>
+
+          <div class="orbit orbit2">
+            <div class="orbit-dot"></div>
+          </div>
+
+          <div class="profile-container">
+            <div class="profile-ring"></div>
+
+            <div class="profile-image-box">
+              <img src="./Images/HeroSection.png" alt="Developer" />
+
+              <div class="profile-overlay"></div>
+
+              <div class="profile-text">
+                <h2>SURYA</h2>
+
+                <p>JAVA FULL STACK DEVELOPER</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+
+    <section id="about">
+      <div class="container">
+        <div class="section-title reveal">
+          <h2>About Me</h2>
+        </div>
+
+        <div class="about-grid">
+          <div class="hero-3d-card glass-card reveal">
+            <div class="floating-icon icon-1">
+              <i class="fa-brands fa-java"></i>
+            </div>
+
+            <div class="floating-icon icon-2">
+              <i class="fa-brands fa-react"></i>
+            </div>
+
+            <div class="floating-icon icon-3">
+              <i class="fa-solid fa-database"></i>
+            </div>
+
+            <div class="floating-icon icon-4">
+              <i class="fa-solid fa-code"></i>
+            </div>
+
+            <div class="profile-wrapper-about">
+              <div class="profile-ring-about"></div>
+
+              <div class="profile-ring-about ring-2"></div>
+
+              <div class="profile-ring-about ring-3"></div>
+
+              <img
+                src="./Images/About Me.png"
+                alt="Profile"
+                class="profile-image-about"
+              />
+            </div>
+          </div>
+
+          <div class="about-content glass-card reveal">
+            <div class="about-badge">FULL STACK DEVELOPER</div>
+
+            <h3>Future Software DEVELOPER 🚀</h3>
+
+            <p>
+              I am an aspiring Java Full Stack Developer passionate about
+              building scalable backend systems, responsive frontend
+              applications, and production-ready software solutions.
+            </p>
+
+            <p>
+              My primary focus areas include Java, Spring Boot, REST APIs,
+              React, MySQL, Backend architecture, DSA, and modern full stack
+              engineering.
+            </p>
+
+            <p>
+              I continuously improve my software engineering skills by building
+              real-world projects, solving algorithmic problems, and learning
+              scalable application design patterns.
+            </p>
+
+            <div class="about-stats">
+              <div class="stat-card">
+                <h4>10+</h4>
+
+                <span>Technologies</span>
+              </div>
+
+              <div class="stat-card">
+                <h4>2</h4>
+
+                <span>Projects</span>
+              </div>
+
+              <div class="stat-card">
+                <h4>100+</h4>
+
+                <span>DSA Problems</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+
+    <section id="skills">
+      <div class="container">
+        <div class="section-title reveal">
+          <h2>Technical Skills</h2>
+        </div>
+
+        <div class="skills-grid">
+          <div class="skill-card glass-card reveal">
+            <h3>Frontend</h3>
+
+            <div class="skill-list">
+              <div class="skill">HTML</div>
+              <div class="skill">CSS</div>
+              <div class="skill">JavaScript</div>
+              <div class="skill">React</div>
+            </div>
+          </div>
+
+          <div class="skill-card glass-card reveal">
+            <h3>Backend</h3>
+
+            <div class="skill-list">
+              <div class="skill">Java</div>
+              <div class="skill">JDBC</div>
+              <div class="skill">Servlets</div>
+              <div class="skill">JSP</div>
+              <div class="skill">JEE</div>
+              <div class="skill">Hibernate</div>
+              <div class="skill">Spring MVC</div>
+              <div class="skill">Spring Boot</div>
+              <div class="skill">REST APIs</div>
+            </div>
+          </div>
+
+          <div class="skill-card glass-card reveal">
+            <h3>Database & Tools</h3>
+
+            <div class="skill-list">
+              <div class="skill">MySQL</div>
+              <div class="skill">CRUD Operations</div>
+              <div class="skill">MySQL Workbench</div>
+              <div class="skill">Git/GitHub</div>
+              <div class="skill">Eclipse</div>
+              <div class="skill">VS Code</div>
+            </div>
+          </div>
+          <div class="skill-card glass-card reveal">
+            <h3>Backend</h3>
+
+            <div class="skill-list">
+              <div class="skill">Core Java</div>
+              <div class="skill">OOPS</div>
+              <div class="skill">Exception Handling</div>
+              <div class="skill">Multithreading</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- EDUCATION -->
+
+    <section id="education">
+      <div class="container">
+        <div class="section-title reveal">
+          <h2>Education</h2>
+        </div>
+
+        <div class="timeline">
+          <div class="timeline-item reveal">
+            <div class="timeline-dot"></div>
+
+            <div class="timeline-card glass-card">
+              <div class="timeline-icon">
+                <i class="fa-solid fa-graduation-cap"></i>
+              </div>
+
+              <span class="timeline-year"> 2022 - 2025 </span>
+
+              <h3>Bachelor of Engineering</h3>
+
+              <h4>Electrical And Electronics Engineering</h4>
+
+              <span class="timeline-year"> CGPA 8.51 </span>
+              <p>
+                Built a strong academic foundation with consistent performance
+                and problem-solving focus.
+              </p>
+            </div>
+          </div>
+
+          <div class="timeline-item reveal">
+            <div class="timeline-dot"></div>
+
+            <div class="timeline-card glass-card">
+              <div class="timeline-icon">
+                <i class="fa-solid fa-code"></i>
+              </div>
+
+              <span class="timeline-year"> 2025 - 2026 </span>
+
+              <h3>Java Full Stack Development</h3>
+
+              <h4>Professional Training Program</h4>
+
+              <p>
+                Intensive hands-on training in Java, Spring Boot, JDBC,
+                Servlets, JSP, React, REST APIs, MySQL, Git, and Full Stack
+                Development.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+
+    <section id="projects">
+      <div class="container">
+        <div class="section-title reveal">
+          <h2>Featured Projects</h2>
+        </div>
+
+        <div class="projects-grid">
+          <!-- PROJECT 1 -->
+
+          <div class="project-card glass-card reveal">
+            <div class="project-image">
+              <img src="./Images/FoodDelivery.jpg" alt="Food Delivery App" />
+            </div>
+
+            <div class="project-content">
+              <div class="project-badge">FULL STACK PROJECT</div>
+
+              <h3>FoodieHub - Online Food Delivery</h3>
+
+              <p>
+                Modern online food ordering platform with responsive UI,
+                restaurant browsing, food search, cart functionality, and
+                real-time interaction.
+              </p>
+
+              <div class="tech-stack">
+                <span>Java</span>
+                <span>JDBC</span>
+                <span>Java Servlets</span>
+                <span>JSP (JavaServer Pages)</span>
+                <span>MySQL</span>
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+                <span>Apache Tomcat</span>
+                <span>MVC Architecture</span>
+              </div>
+
+              <div class="project-buttons">
+                <a
+                  href="https://github.com/Surya63023/FoodieHub-Online-Food-Delivery"
+                  target="_blank"
+                  class="btn btn-primary"
+                >
+                  GitHub
+                </a>
+
+                <a
+                  href="https://surya63023.github.io/FoodieHub-Online-Food-Delivery/"
+                  target="_blank"
+                  class="btn btn-outline"
+                >
+                  Demo
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- PROJECT 2 -->
+
+          <div class="project-card glass-card reveal">
+            <div class="project-image">
+              <img src="./Images/Hospital.png" alt="Hospital Management" />
+            </div>
+
+            <div class="project-content">
+              <div class="project-badge">ENTERPRISE JAVA PROJECT</div>
+
+              <h3>Hospital Management System</h3>
+
+              <p>
+                Enterprise-grade Hospital Management System implementing MVC
+                architecture, appointment scheduling, authentication, patient
+                management, and admin workflow systems.
+              </p>
+
+              <div class="tech-stack">
+                <span>Java</span>
+                <span>JDBC</span>
+                <span>Java Servlets</span>
+                <span>JSP (JavaServer Pages)</span>
+                <span>MySQL</span>
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+                <span>Apache Tomcat</span>
+                <span>MVC Architecture</span>
+              </div>
+
+              <div class="project-buttons">
+                <a
+                  href="https://github.com/Surya63023/hospital-management-system-java-full-stack-project"
+                  target="_blank"
+                  class="btn btn-primary"
+                >
+                  GitHub
+                </a>
+
+                <a
+                  href="https://surya63023.github.io/hospital-management-system-java-full-stack-project/"
+                  target="_blank"
+                  class="btn btn-outline"
+                >
+                  Demo
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- PROJECT 3 -->
+
+          <div class="project-card glass-card reveal">
+            <div class="project-image">
+              <img src="./Images/Portfolio.png" alt="Portfolio" />
+            </div>
+
+            <div class="project-content">
+              <div class="project-badge">3D PORTFOLIO</div>
+
+              <h3>Futuristic Portfolio Website</h3>
+
+              <p>
+                Advanced futuristic developer portfolio with 3D animations,
+                orbit effects, glassmorphism UI, custom cursor, reveal
+                animations, and responsive design.
+              </p>
+
+              <div class="tech-stack">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+                <span>VS Code</span>
+              </div>
+
+              <div class="project-buttons">
+                <a
+                  href="https://github.com/Surya63023"
+                  target="_blank"
+                  class="btn btn-primary"
+                >
+                  GitHub
+                </a>
+
+                <a
+                  href="https://github.com/Surya63023"
+                  target="_blank"
+                  class="btn btn-outline"
+                >
+                  Demo
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CERTIFICATIONS -->
+
+    <section id="certifications">
+      <div class="container">
+        <div class="section-title reveal">
+          <h2>Certifications</h2>
+        </div>
+
+        <div class="certificate-grid">
+          <div class="certificate-card glass-card reveal">
+            <div class="certificate-icon">
+              <i class="fa-solid fa-laptop-code"></i>
+            </div>
+
+            <h3>Full Stack Development – Tap Academy</h3>
+
+            <p>
+              Professional Full Stack Development training covering Java, Spring
+              Boot, JDBC, Servlets, JSP, REST APIs, MySQL, frontend development,
+              and modern web application architecture.
+            </p>
+          </div>
+
+          <div class="certificate-card glass-card reveal">
+            <div class="certificate-icon">
+              <i class="fa-solid fa-briefcase"></i>
+            </div>
+
+            <h3>TCS iON Career Edge – Young Professional (2025)</h3>
+
+            <p>
+              Industry-focused professional certification covering communication
+              skills, workplace readiness, presentation skills, interview
+              preparation, and corporate professionalism.
+            </p>
+          </div>
+
+          <div class="certificate-card glass-card reveal">
+            <div class="certificate-icon">
+              <i class="fa-solid fa-cloud"></i>
+            </div>
+
+            <h3>Cloud Computing – NPTEL, IIT Kharagpur (2024)</h3>
+
+            <p>
+              Academic certification focused on cloud infrastructure,
+              virtualization, distributed computing, and scalable cloud-based
+              systems.
+            </p>
+          </div>
+
+          <div class="certificate-card glass-card reveal">
+            <div class="certificate-icon">
+              <i class="fa-solid fa-microchip"></i>
+            </div>
+
+            <h3>Young IoT Prodigy Program – Infosys Springboard (Apr 2024)</h3>
+
+            <p>
+              IoT-focused program covering embedded systems, smart device
+              communication, sensor integration, automation, and connected
+              technologies.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+
+    <section id="contact">
+      <div class="container">
+        <div class="section-title reveal">
+          <h2>Contact Me</h2>
+        </div>
+
+        <div class="contact-grid">
+          <div class="contact-card glass-card reveal">
+            <h3>Let's Connect 🚀</h3>
+
+            <div class="contact-info">
+              <div class="contact-item">
+                <i class="fa-brands fa-linkedin"></i>
+
+                <a
+                  href="https://www.linkedin.com/in/suryateja-developer"
+                  target="_blank"
+                >
+                  www.linkedin.com/in/suryateja-developer
+                </a>
+              </div>
+
+              <div class="contact-item">
+                <i class="fa-brands fa-github"></i>
+
+                <a href="https://github.com/Surya63023" target="_blank">
+                  github.com/Surya63023
+                </a>
+              </div>
+
+              <div class="contact-item">
+                <i class="fa-solid fa-envelope"></i>
+
+                <a href="mailto:suryateja36200@gmail.com">
+                  suryateja36200@gmail.com
+                </a>
+              </div>
+
+              <div class="contact-item">
+                <i class="fa-brands fa-instagram"></i>
+
+                <a
+                  href="https://www.instagram.com/surya__teja________/"
+                  target="_blank"
+                >
+                  Instagram Profile
+                </a>
+              </div>
+
+              <div class="contact-item">
+                <i class="fa-solid fa-phone"></i>
+
+                <span> +91 6302379483 </span>
+              </div>
+
+              <div class="contact-item">
+                <i class="fa-solid fa-location-dot"></i>
+
+                <span> Bengaluru, Karnataka, India </span>
+              </div>
+            </div>
+          </div>
+
+          <div class="contact-card glass-card reveal">
+            <h3>Send a Message</h3>
+
+            <form class="contact-form" id="contactForm">
+              <input type="text" id="name" placeholder="Your Name" required />
+
+              <input
+                type="email"
+                id="email"
+                placeholder="Your Email"
+                required
+              />
+
+              <textarea
+                id="message"
+                placeholder="Your Message"
+                required
+              ></textarea>
+
+              <button type="submit" class="btn btn-primary">
+                <span>
+                  <i class="fa-solid fa-paper-plane"></i>
+                </span>
+
+                Send Message
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+
+    <footer>© 2026 Surya | Java Full Stack Developer</footer>
+
+    <!-- JS FILE -->
+    <script src="./script.js"></script>
+  </body>
+</html>
